@@ -1,1 +1,0 @@
-import{j as n,L as o,b as s}from"./index-4c1e7120.js";const t="_login_m1uzp_1",i={login:t},e=()=>n.jsxs("div",{className:i.login,children:[n.jsx(o,{className:s,to:"/auth/signup",children:"Do not have an account?"}),n.jsx("h2",{children:"Sign in Pade"}),n.jsx("button",{className:s,type:"button",children:"Forgot password?"})]});export{e as default};
