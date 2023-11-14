@@ -1,1 +1,0 @@
-import{j as e,C as r}from"./index-c5dc3bf4.js";import"./SigninForm-135c5f79.js";import"./AuthForms.styled-f0fe6783.js";const o=()=>e.jsx(r,{$d:"flex",$fd:"column",$ai:"center",$jc:"center",children:e.jsx("h1",{children:"Cluster"})});export{o as default};
