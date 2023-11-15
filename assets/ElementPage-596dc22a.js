@@ -1,0 +1,1 @@
+import{j as e,C as t,t as n}from"./index-99394d23.js";const s=()=>e.jsx(t,{$p:`${n.indent.s} ${n.indent.m}`,$d:"flex",$fd:"column",$ai:"center",$jc:"center",children:e.jsx("h1",{children:"Element"})});export{s as default};

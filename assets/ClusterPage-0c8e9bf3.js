@@ -1,0 +1,1 @@
+import{j as t,C as r,t as e,B as s}from"./index-99394d23.js";import{C as n}from"./ControlBar-eeb96ffd.js";const a=()=>t.jsxs(r,{$p:`${e.indent.s} ${e.indent.m}`,$d:"flex",$fd:"column",$ai:"center",$jc:"center",children:[t.jsx("h1",{children:"Cluster"}),t.jsx(n,{$x:"right",$y:"bottom",$gtc:"1fr",children:t.jsx(s,{$s:"m",children:"Edit"})})]});export{a as default};
