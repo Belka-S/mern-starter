@@ -1,4 +1,4 @@
-import{s as l,t as n,P as i,j as c}from"./index-b3d4ed84.js";const x=l.div`
+import{s as l,t as n,P as i,j as c}from"./index-b528fecf.js";const x=l.div`
   width: ${({$w:t})=>t};
   padding-block: ${({$pb:t=n.indent.s})=>t};
   padding-inline: ${({$pi:t=n.indent.m})=>t};
