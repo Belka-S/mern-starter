@@ -1,4 +1,4 @@
-import{s as l,t as n,P as i,j as c}from"./index-b528fecf.js";const x=l.div`
+import{s as l,t as n,P as i,j as c}from"./index-b5c1926b.js";const x=l.div`
   width: ${({$w:t})=>t};
   padding-block: ${({$pb:t=n.indent.s})=>t};
   padding-inline: ${({$pi:t=n.indent.m})=>t};
@@ -7,6 +7,7 @@ import{s as l,t as n,P as i,j as c}from"./index-b528fecf.js";const x=l.div`
   ${({$y:t="top"})=>`${t}: 0`};
 
   display: grid;
+  align-items: center;
   justify-items: center;
 
   grid-template-columns: repeat(
@@ -21,7 +22,7 @@ import{s as l,t as n,P as i,j as c}from"./index-b528fecf.js";const x=l.div`
     grid-template-columns: ${({$gtc:t})=>t};
   }
 
-  & button {
+  & > button {
     box-shadow: ${n.shadows.button};
   }
-`,u=({$w:t,$pb:s,$pi:r,$pos:e,$x:o,$y:p,$rg:g,$cg:$,$mm:d,$gtc:a,children:m})=>c.jsx(x,{$w:t,$pb:s,$pi:r,$x:o,$y:p,$pos:e,$rg:g,$cg:$,$mm:d,$gtc:a,children:m});u.propTypes={$w:i.string,$pb:i.string,$pi:i.string,$pos:i.string,$x:i.string,$y:i.string,$rg:i.string,$cg:i.string,$mm:i.string,$gtc:i.string,children:i.oneOfType([i.string,i.node,i.oneOf(["img","png","svg"])]).isRequired};export{u as C};
+`,u=({$w:t,$pb:s,$pi:r,$pos:e,$x:o,$y:g,$rg:p,$cg:$,$mm:a,$gtc:d,children:m})=>c.jsx(x,{$w:t,$pb:s,$pi:r,$x:o,$y:g,$pos:e,$rg:p,$cg:$,$mm:a,$gtc:d,children:m});u.propTypes={$w:i.string,$pb:i.string,$pi:i.string,$pos:i.string,$x:i.string,$y:i.string,$rg:i.string,$cg:i.string,$mm:i.string,$gtc:i.string,children:i.oneOfType([i.string,i.node,i.oneOf(["img","png","svg"])]).isRequired};export{u as C};
