@@ -1,0 +1,1 @@
+import{f as r,u as o,o as c,d as n}from"./index-db411ad0.js";const f=()=>{const[s]=r(),e=o(),a=s.get("accessToken"),t=s.get("refreshToken");e(c({result:{user:{accessToken:a,refreshToken:t}}})),e(n())};export{f as default};
