@@ -1,1 +1,0 @@
-import{Q as a}from"./index-e6296961.js";const t=async()=>{if(!navigator.clipboard){a.error("Clipboard API is unavailable");return}navigator.permissions.query({name:"clipboard-read"}).then(r=>{r.state!=="granted"&&a.error("Browser settings > Security > Site settings > Permissions")});try{return await navigator.clipboard.readText()}catch(r){a.error(r.message)}};export{t as r};
