@@ -1,1 +1,0 @@
-import{t as c,K as a,j as e,F as l}from"./index-89680d23.js";const{s,m:o}=c.indents,u=()=>{const{activeCluster:t}=a(),{group:n,title:r}=t;return e.jsxs(l,{$p:`2px ${o} ${s} ${s}`,$fd:"column",$ai:"center",$jc:"center",children:[e.jsx("h1",{children:r}),e.jsxs("h2",{children:["(",n,")"]})]})};export{u as default};
