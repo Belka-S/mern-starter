@@ -16,26 +16,15 @@ their own MERN app.
 To get started with the project, follow these
 steps:
 
-1. Clone this repository to your local machine:
-
-```sh
-git clone <repository-url>
-```
+1. Clone this repository to your local machine
+   `git clone <repository-url>`
 
 2. Change directory to the project folder
    `cd mern-tstarter`
 
-3. Install the project dependencies:
+3. Install the project dependencies `npm install`
 
-```sh
-npm install
-```
-
-4. Start the development server:
-
-```sh
-npm run dev
-```
+4. Start the development server `npm run dev`
 
 5. Open your web browser and navigate to
    `http://localhost:3000` to access the
