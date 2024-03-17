@@ -18,11 +18,11 @@
 
 ### Built With
 
+- [![React][React.js]][React-url]
+- [![Vite][Vite]][Vite-url]
 - [![MongoDB][MongoDB]][MongoDB-url]
 - [![Express][Express.js]][React-url]
-- [![React][React.js]][React-url]
 - [![Node][Node.js]][Node-url]
-- [![Vite][Vite]][Vite-url]
 
 ### Getting Started
 
