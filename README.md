@@ -1,6 +1,6 @@
-<a name="readme-top">
-<h2>This application intends to help people create their own MERN app.</h2>
-</a>
+## This application intends to help people create their own MERN app.
+
+<a name="readme-top"></a>
 
 <details>
   <summary>Table of Contents</summary>
