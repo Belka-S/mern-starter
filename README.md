@@ -2,10 +2,10 @@
 
 [![MERN Screen Shot][product-screenshot]](https://belka-s.github.io/mern-starter/)
 
-<details>
-  <h3 align="center">This application intends to help people create
-their own MERN app.</h3>
+  <h2 align="center">This application intends to help people create
+their own MERN app.</h2>
 
+<details>
   <summary>Table of Contents</summary>
   <ol>
       <li><a href="#about-the-project">About the Project</a></li>
