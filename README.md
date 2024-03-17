@@ -8,13 +8,8 @@ their own MERN app.
 - [![MongoDB][MongoDB]][MongoDB-url]
 - [![Express][Express.js]][React-url]
 - [![React][React.js]][React-url]
-    <!-- * [![Next][Next.js]][Next-url] -->
-    <!-- * [![Vue][Vue.js]][Vue-url] -->
-    <!-- * [![Angular][Angular.io]][Angular-url] -->
-    <!-- * [![Svelte][Svelte.dev]][Svelte-url]
-  <!-- - [![Laravel][Laravel.com]][Laravel-url] -->
-  <!-- - [![Bootstrap][Bootstrap.com]][Bootstrap-url] -->
-  <!-- - [![JQuery][JQuery.com]][JQuery-url] -->
+- [![Node][Node.js]][Node-url]
+- [![Vite][Vite]][Vite-url]
 
 ### Getting Started
 
@@ -23,19 +18,24 @@ steps:
 
 1. Clone this repository to your local machine:
 
-`git clone <repository-url>`
+```sh
+git clone <repository-url>
+```
 
-2. Change directory to the project folder:
-
-`cd mern-tstarter`
+2. Change directory to the project folder
+   `cd mern-tstarter`
 
 3. Install the project dependencies:
 
-`npm install`
+```sh
+npm install
+```
 
 4. Start the development server:
 
-`npm run dev`
+```sh
+npm run dev
+```
 
 5. Open your web browser and navigate to
    `http://localhost:3000` to access the
@@ -128,41 +128,20 @@ follow these steps:
 [linkedin-url]:
  https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
-[Next.js]:
- https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[Vue.js]:
- https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]:
- https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]:
- https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]:
- https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]:
- https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]:
- https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com
 
-<!--  -->
+<!-- Bages -->
 
 [MongoDB]:
- https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white
+ https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white
 [MongoDB-url]: https://www.mongodb.com
 [Express.js]:
- https://img.shields.io/badge/Express.js-404D59?style=for-the-badge
+ https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB
 [Express-url]: https://expressjs.com
 [React.js]:
- https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+ https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
 [React-url]: https://reactjs.org/
 [Node.js]:
- https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
+ https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
 [Node-url]: https://nodejs.org/en/about
 [Vite]:
  https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
