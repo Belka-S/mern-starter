@@ -2,7 +2,8 @@
 
 [![MERN Screen Shot][product-screenshot]](https://belka-s.github.io/mern-starter/)
 
-# To help build your own MERN app
+<!-- # To help build your own MERN app -->
+<h1 align="center">To help build your own MERN app</h1>
 
 <details>
   <summary>Table of Contents</summary>
