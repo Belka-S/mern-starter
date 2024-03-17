@@ -32,7 +32,7 @@ steps:
 
 ### Compose sample
 
-1. Project structure:
+1. Project structure
 
 ```
 .
@@ -46,19 +46,19 @@ steps:
 └── README.md
 ```
 
-2. Build the Docker image:
+2. Build the Docker image
 
 ```sh
 docker build -t <user-name>/<image-name> .
 ```
 
-3. Run the image locally:
+3. Run the image locally
 
 ```sh
 docker run -it --rm -p 3000:3000 --name <container-name> <user-name>/<image-name>
 ```
 
-4. Build and run the the image locally:
+4. Build and run the the image locally
 
 ```sh
 docker-compose up
@@ -67,7 +67,7 @@ docker-compose up
 5. After the application starts, navigate to
    `http://localhost:3000` in your web browser.
 
-6. Push the image to a private repository:
+6. Push the image to a private repository
 
 ```sh
 docker push <user-name>/<image-name>
