@@ -2,6 +2,8 @@
 
 <a name="readme-top"></a>
 
+[![MERN Screen Shot][product-screenshot]](https://belka-s.github.io/mern-starter/)
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -12,8 +14,6 @@
       <li><a href="#contributing">Contributing</a></li>
   </ol>
 </details>
-
-[![MERN Screen Shot][product-screenshot]](https://belka-s.github.io/mern-starter/)
 
 ##
 
