@@ -6,6 +6,7 @@ their own MERN app.
 ### Built With
 
 - [![MongoDB][MongoDB]][MongoDB-url]
+- [![Express][Express.js]][React-url]
 - [![React][React.js]][React-url]
     <!-- * [![Next][Next.js]][Next-url] -->
     <!-- * [![Vue][Vue.js]][Vue-url] -->
@@ -74,13 +75,14 @@ docker run -it --rm -p 3000:3000 --name <container-name> <user-name>/<image-name
 docker-compose up
 ```
 
-5. After the application starts, navigate to:
-
-`http://localhost:3000` in your web browser.
+5. After the application starts, navigate to
+   `http://localhost:3000` in your web browser.
 
 6. Push the image to a private repository:
 
-`docker push <user-name>/<image-name>`
+```sh
+docker push <user-name>/<image-name>
+```
 
 ### Contributing
 
@@ -91,11 +93,11 @@ follow these steps:
 
 1. Fork the Project
 2. Create your Feature Branch
-   (`git checkout -b feat/feature-name`)
+   `git checkout -b feat/feature-name`
 3. Commit your Changes
-   (`git commit -m 'add: feature-name'`)
+   `git commit -m 'add: feature-name'`
 4. Push to the Branch
-   (`git push origin feat/feature-nameure`)
+   `git push origin feat/feature-nameure`
 5. Open a Pull Request
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -129,9 +131,6 @@ follow these steps:
 [Next.js]:
  https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
-[React.js]:
- https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
 [Vue.js]:
  https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
@@ -153,15 +152,18 @@ follow these steps:
 
 <!--  -->
 
-[MongoDB.com]:
- https://img.shields.io/badge/MongoDB-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[MongoDB]:
+ https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white
 [MongoDB-url]: https://www.mongodb.com
-[JQuery.com]:
- https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com
-[JQuery.com]:
- https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com
-[JQuery.com]:
- https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com
+[Express.js]:
+ https://img.shields.io/badge/Express.js-404D59?style=for-the-badge
+[Express-url]: https://expressjs.com
+[React.js]:
+ https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Node.js]:
+ https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
+[Node-url]: https://nodejs.org/en/about
+[Vite]:
+ https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
+[Vite-url]: https://vitejs.dev
