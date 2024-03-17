@@ -53,15 +53,21 @@ steps:
 
 2. Build the Docker image:
 
-`docker build -t <user-name>/<image-name> .`
+```sh
+docker build -t <user-name>/<image-name> .
+```
 
 3. Run the image locally:
 
-`docker run -it --rm -p 3000:3000 --name <container-name> <user-name>/<image-name>`
+```sh
+docker run -it --rm -p 3000:3000 --name <container-name> <user-name>/<image-name>
+```
 
 4. Build and run the the image locally:
 
-`docker-compose up`
+```sh
+docker-compose up
+```
 
 5. After the application starts, navigate to:
 
