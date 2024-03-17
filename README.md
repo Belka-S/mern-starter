@@ -1,16 +1,20 @@
 ## About The Project
 
-This application intends to help people create
-their own MERN app.
+  <h1 align="center">This application intends to help people create
+their own MERN app.</h1>
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/Belka-S/mern-tstarter">
-    <img src="client/public/MERN.png" alt="Logo">
-  </a>
+[![MERN Screen Shot][product-screenshot]](https://belka-s.github.io/mern-starter/)
 
-</div>
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+      <li><a href="#about-the-project">About the Project</a></li>
+      <li><a href="#built-with">Built With</a></li>
+      <li><a href="#getting-started">Getting Started</a></li>
+      <li><a href="#compose-a-sample">Compose a Sample</a></li>
+      <li><a href="#contributing">Contributing</a></li>
+  </ol>
+</details>
 
 ### Built With
 
@@ -39,7 +43,7 @@ steps:
    `http://localhost:3000` to access the
    application.
 
-### Compose sample
+### Compose a Sample
 
 1. Project structure
 
@@ -99,7 +103,6 @@ follow these steps:
 5. Open a Pull Request.
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]:
  https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
@@ -125,7 +128,7 @@ follow these steps:
  https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]:
  https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: client/public/MERN.png
 
 <!-- Bages -->
 
