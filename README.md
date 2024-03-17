@@ -3,6 +3,15 @@
 This application intends to help people create
 their own MERN app.
 
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/Belka-S/mern-tstarter">
+    <img src="client/public/MERN.png" alt="Logo">
+  </a>
+
+</div>
+
 ### Built With
 
 - [![MongoDB][MongoDB]][MongoDB-url]
