@@ -1,9 +1,6 @@
-## About The Project
+<a name="readme-top"></a>
 
-[![MERN Screen Shot][product-screenshot]](https://belka-s.github.io/mern-starter/)
-
-  <h2 align="center">This application intends to help people create
-their own MERN app.</h2>
+## This application intends to help people create their own MERN app.
 
 <details>
   <summary>Table of Contents</summary>
@@ -15,6 +12,8 @@ their own MERN app.</h2>
       <li><a href="#contributing">Contributing</a></li>
   </ol>
 </details>
+
+[![MERN Screen Shot][product-screenshot]](https://belka-s.github.io/mern-starter/)
 
 ### Built With
 
