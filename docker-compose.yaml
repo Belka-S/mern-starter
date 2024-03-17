@@ -3,15 +3,15 @@ services:
  client:
   stdin_open: true
   restart: unless-stopped # always
-  image: fpmip/mern-tstarter
+  image: ${DOCKER_USER_NAME}/${APP_NAME}
   container_name: client
   build:
    context: ./client
    dockerfile: Dockerfile
   ports:
-   - 3000:3000
+   - ${FRONT_PORT}:${FRONT_PORT}
   volumes:
    - app-files:/app/
 volumes:
  app-files:
-  # exter
+# external: true
