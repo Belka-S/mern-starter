@@ -1,0 +1,17 @@
+version: '0.0.1'
+services:
+ client:
+  stdin_open: true
+  restart: unless-stopped # always
+  image: fpmip/mern-tstarter
+  container_name: client
+  build:
+   context: ./client
+   dockerfile: Dockerfile
+  ports:
+   - 3000:3000
+  volumes:
+   - app-files:/app/
+volumes:
+ app-files:
+  # exter
