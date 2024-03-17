@@ -1,4 +1,4 @@
-## This application intends to help people create their own MERN app.
+# This application intends to help people create their own MERN app
 
 <a name="readme-top"></a>
 
