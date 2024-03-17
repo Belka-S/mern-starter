@@ -1,4 +1,4 @@
-# MERN-App Template
+## To help build your own MERN app
 
 <a name="readme-top"></a>
 
@@ -13,9 +13,9 @@
   </ol>
 </details>
 
-##
-
 [![MERN Screen Shot][product-screenshot]](https://belka-s.github.io/mern-starter/)
+
+##
 
 ### Built With
 
