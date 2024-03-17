@@ -19,10 +19,11 @@
 ### Built With
 
 - [![React][React.js]][React-url]
-- [![Vite][Vite]][Vite-url]
-- [![MongoDB][MongoDB]][MongoDB-url]
-- [![Express][Express.js]][React-url]
+- [![Redux][Redux.js]][Redux-url]
 - [![Node][Node.js]][Node-url]
+- [![Express][Express.js]][React-url]
+- [![MongoDB][MongoDB]][MongoDB-url]
+- [![Vite][Vite]][Vite-url]
 
 ### Getting Started
 
@@ -147,6 +148,9 @@ follow these steps:
 [React.js]:
  https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
 [React-url]: https://reactjs.org/
+[redux.js]:
+ https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white
+[redux-url]: https://redux-toolkit.js.org
 [Node.js]:
  https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
 [Node-url]: https://nodejs.org/en/about
