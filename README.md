@@ -1,11 +1,11 @@
 ## About The Project
 
-  <h1 align="center">This application intends to help people create
-their own MERN app.</h1>
-
 [![MERN Screen Shot][product-screenshot]](https://belka-s.github.io/mern-starter/)
 
 <details>
+  <h3 align="center">This application intends to help people create
+their own MERN app.</h3>
+
   <summary>Table of Contents</summary>
   <ol>
       <li><a href="#about-the-project">About the Project</a></li>
@@ -42,6 +42,8 @@ steps:
 5. Open your web browser and navigate to
    `http://localhost:3000` to access the
    application.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Compose a Sample
 
@@ -86,6 +88,8 @@ docker-compose up
 docker push <user-name>/<image-name>
 ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Contributing
 
 Contributions are welcome! If you have a
@@ -101,6 +105,8 @@ follow these steps:
 4. Push to the Branch
    `git push origin feat/feature-nameure`.
 5. Open a Pull Request.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
