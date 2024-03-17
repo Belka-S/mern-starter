@@ -1,8 +1,8 @@
-## To help build your own MERN app
-
 <a name="readme-top"></a>
 
 [![MERN Screen Shot][product-screenshot]](https://belka-s.github.io/mern-starter/)
+
+# To help build your own MERN app
 
 <details>
   <summary>Table of Contents</summary>
@@ -14,8 +14,6 @@
       <li><a href="#contributing">Contributing</a></li>
   </ol>
 </details>
-
-##
 
 ### Built With
 
