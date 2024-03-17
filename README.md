@@ -17,14 +17,14 @@ To get started with the project, follow these
 steps:
 
 1. Clone this repository to your local machine
-   `git clone <repository-url>`
+   `git clone <repository-url>`.
 
 2. Change directory to the project folder
-   `cd mern-tstarter`
+   `cd mern-tstarter`.
 
-3. Install the project dependencies `npm install`
+3. Install the project dependencies `npm install`.
 
-4. Start the development server `npm run dev`
+4. Start the development server `npm run dev`.
 
 5. Open your web browser and navigate to
    `http://localhost:3000` to access the
@@ -80,14 +80,14 @@ suggestion that would make this better, please
 fork the repo and create a pull request, please
 follow these steps:
 
-1. Fork the Project
+1. Fork the Project.
 2. Create your Feature Branch
-   `git checkout -b feat/feature-name`
+   `git checkout -b feat/feature-name`.
 3. Commit your Changes
-   `git commit -m 'add: feature-name'`
+   `git commit -m 'add: feature-name'`.
 4. Push to the Branch
-   `git push origin feat/feature-nameure`
-5. Open a Pull Request
+   `git push origin feat/feature-nameure`.
+5. Open a Pull Request.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
