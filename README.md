@@ -1,6 +1,8 @@
-# MERN application template
+# MERN-App Template
 
 <a name="readme-top"></a>
+
+##
 
 <details>
   <summary>Table of Contents</summary>
