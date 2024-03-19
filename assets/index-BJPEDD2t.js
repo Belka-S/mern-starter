@@ -1,0 +1,1 @@
+import{j as s,c as e}from"./index-9q8M5Lni.js";import{H as r}from"./index-CiIM_3En.js";const t="_screen_1kgoh_1",a={screen:t},o=()=>s.jsx(r,{className:e("container",a.screen),children:"List of Users Page"});export{o as default};

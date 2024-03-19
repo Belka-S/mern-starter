@@ -1,0 +1,1 @@
+import{u as e,j as a,c as n}from"./index-9q8M5Lni.js";import{H as r}from"./index-CiIM_3En.js";const o="_screen_1kgoh_1",c={screen:o},i=()=>{const{id:s}=e();return a.jsx(r,{className:n("container",c.screen),children:`Company ${s||""} Page`})};export{i as default};
