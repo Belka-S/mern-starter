@@ -1,0 +1,1 @@
+import{j as s,c as e}from"./index-os4hmaQW.js";import{H as r}from"./index-C8zbVL5H.js";import"./Typography-B9FBw5Tk.js";const o="_screen_1kgoh_1",t={screen:o},m=()=>s.jsx(r,{className:e("container",t.screen),children:"About Page"});export{m as default};
