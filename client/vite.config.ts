@@ -22,5 +22,5 @@ export default defineConfig({
     alias: { ...dirPaths },
   },
   server: { open: '/', port: 3000 },
-  base: '/mern-tstarter',
+  base: '/mern-starter',
 });
