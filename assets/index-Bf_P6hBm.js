@@ -1,1 +1,0 @@
-import{j as e}from"./index-wTR40fRn.js";import{T as a}from"./Typography-BderKm-a.js";const p=o=>{const{className:r="",fontWeight:s=700,children:t}=o;return e.jsx(a,{className:r,el:"h1",fontWeight:s,children:t})};export{p as H};

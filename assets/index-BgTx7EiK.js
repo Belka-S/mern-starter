@@ -1,1 +1,0 @@
-import{j as s,c as e}from"./index-wTR40fRn.js";import{H as o}from"./index-Bf_P6hBm.js";import"./Typography-BderKm-a.js";const r="_screen_1kgoh_1",a={screen:r},m=()=>s.jsx(o,{className:e("container",a.screen),children:"List of Companies Page"});export{m as default};
