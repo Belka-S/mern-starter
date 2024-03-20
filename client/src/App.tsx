@@ -9,44 +9,35 @@ import { loadWebFonts } from 'styles/loadWebFonts';
 import { useAuth } from 'utils/hooks';
 
 const HomePage = lazy(() => import('pages/HomePage'));
-const AboutPage = lazy(() => import('pages/AboutPage'));
 const SignupPage = lazy(() => import('pages/SignupPage'));
 const SigninPage = lazy(() => import('pages/SigninPage'));
 const ClusterListPage = lazy(() => import('pages/ClusterListPage'));
 const ClusterPage = lazy(() => import('pages/ClusterPage'));
-const CompanyListPage = lazy(() => import('pages/CompanyListPage'));
-const CompanyPage = lazy(() => import('pages/CompanyPage'));
 
 const App = () => {
-  const { isLoading } = useAuth();
+  const { loading } = useAuth();
 
   useEffect(() => {
     loadWebFonts();
   }, []);
 
+  if (loading) return <OvalLoader />;
   return (
     <>
-      {!isLoading && (
-        <Routes>
-          <Route path="/" element={<SharedLayout />}>
-            <Route index element={<HomePage />} />
-            <Route path="about" element={<AboutPage />} />
-            <Route element={<PublicRoutes />}>
-              <Route path="signup" element={<SignupPage />} />
-              <Route path="signin" element={<SigninPage />} />
-            </Route>
-            <Route element={<PrivateRoutes />}>
-              <Route path="cluster" element={<ClusterListPage />} />
-              <Route path="cluster/:id" element={<ClusterPage />} />
-              <Route path="company" element={<CompanyListPage />} />
-              <Route path="company/:id" element={<CompanyPage />} />
-            </Route>
+      <Routes>
+        <Route path="/" element={<SharedLayout />}>
+          <Route index element={<HomePage />} />
+          <Route element={<PublicRoutes />}>
+            <Route path="signup" element={<SignupPage />} />
+            <Route path="signin" element={<SigninPage />} />
           </Route>
-          <Route path="*" element={<Navigate to="/" />} />
-        </Routes>
-      )}
-
-      {isLoading && <OvalLoader />}
+          <Route element={<PrivateRoutes />}>
+            <Route path="cluster" element={<ClusterListPage />} />
+            <Route path="cluster/:id" element={<ClusterPage />} />
+          </Route>
+        </Route>
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
 
       <Toast />
     </>

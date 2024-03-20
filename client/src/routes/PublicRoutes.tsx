@@ -5,8 +5,8 @@ import { useAuth } from 'utils/hooks/useAuth';
 
 const PublicRoutes = () => {
   const { state } = useLocation();
-  const { isAuth, isLoading } = useAuth();
-  const shouldRedirect = !isAuth && !isLoading;
+  const { isAuth, loading } = useAuth();
+  const shouldRedirect = !isAuth && !loading;
 
   return shouldRedirect ? (
     <Suspense fallback={<OvalLoader />}>

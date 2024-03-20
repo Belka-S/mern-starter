@@ -1,4 +1,4 @@
-import InputRhf from 'components/InputRhf';
+import FormInput from 'components/FormInput';
 import Button from 'components/ui/Button';
 import H3 from 'components/ui/Typography/H3';
 import { Resolver, SubmitHandler, useForm } from 'react-hook-form';
@@ -49,7 +49,12 @@ const SigninForm = () => {
       </div>
 
       {inputFields.map(el => (
-        <InputRhf key={el} inputName={el} errors={errors} register={register} />
+        <FormInput
+          key={el}
+          inputName={el}
+          errors={errors}
+          register={register}
+        />
       ))}
 
       <Button type="submit" border="round" label="Submit" />
