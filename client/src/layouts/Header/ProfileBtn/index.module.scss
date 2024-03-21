@@ -11,7 +11,6 @@
   border-radius: 50%;
   background-color: var(--hover-color);
   background-size: cover;
-  // background-image: ${({ $url }) => `url(${$url})`};
   cursor: pointer;
   outline: 3px solid transparent;
   transition: outline-color 250ms;
@@ -24,14 +23,14 @@
   &::after {
     min-width: 36px;
     min-height: 36px;
-    padding-bottom: 6px;
+    padding-bottom: 8px;
 
     display: flex;
     justify-content: center;
     align-items: end;
 
-    font-weight: 700;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 16px;
     font-family: var(--fontMontserrat);
     text-transform: uppercase;
     // color: var(--color-white); content: '';

@@ -9,9 +9,9 @@ export const LinkBtn: FC<TButtonProps> = props => {
   const {
     className,
     size = 'm',
-    type = 'button',
     color = 'default',
     variant = 'orthogonal',
+    type = 'button',
     label,
 
     href,
@@ -20,9 +20,9 @@ export const LinkBtn: FC<TButtonProps> = props => {
 
   return (
     <a
-      href={href}
+      className={classNames(className, s.button, s[size], s[color], s[variant])}
       type={type}
-      className={classNames(s.button, s[size], s[color], s[variant], className)}
+      href={href}
     >
       {label && label}
       {children}

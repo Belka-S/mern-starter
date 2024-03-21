@@ -9,10 +9,9 @@ export const Button: FC<TButtonProps> = props => {
   const {
     className,
     size = 'm',
-    width = 'full',
-    type = 'button',
     color = 'default',
     variant = 'orthogonal',
+    type = 'button',
     label,
 
     onClick,
@@ -21,16 +20,9 @@ export const Button: FC<TButtonProps> = props => {
 
   return (
     <button
-      onClick={onClick}
+      className={classNames(className, s.button, s[size], s[color], s[variant])}
       type={type}
-      className={classNames(
-        s.button,
-        s[size],
-        s[width],
-        s[color],
-        s[variant],
-        className,
-      )}
+      onClick={onClick}
     >
       {label && label}
       {children}

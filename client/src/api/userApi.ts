@@ -41,21 +41,10 @@ export const resetPass = async (credentials: TCredentials) => {
   return data;
 };
 
-export const refreshUser = async (persistedToken: string) => {
-  token.set(persistedToken);
-  const { data } = await apiClient.get('/auth/refresh'); // users/refresh ????
-  return data;
-};
-
 // user
 export const getUser = async (persistedToken: string) => {
   token.set(persistedToken);
   const { data } = await apiClient.get('/users/current');
-  return data;
-};
-
-export const getAllUsers = async () => {
-  const { data } = await apiClient.get('/auth/users');
   return data;
 };
 

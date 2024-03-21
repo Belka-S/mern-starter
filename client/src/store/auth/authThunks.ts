@@ -93,46 +93,13 @@ export const resetPassThunk = createAppAsyncThunk(
   },
 );
 
-export const refreshUserThunk = createAppAsyncThunk(
-  'auth/refresh',
-  async (_, thunkAPI) => {
-    const persistedToken = thunkAPI.getState().auth.user.accessToken;
-    try {
-      return await API.refreshUser(persistedToken ?? '');
-    } catch (error) {
-      const err = error as AxiosError<TError>;
-      if (!err.response) {
-        throw error;
-      }
-      return thunkAPI.rejectWithValue(err.response.data);
-    }
-  },
-);
-
 // users
 export const getUserThunk = createAppAsyncThunk(
   'users/get',
   async (_, thunkAPI) => {
     const persistedToken = thunkAPI.getState().auth.user.accessToken;
     try {
-      if (persistedToken) {
-        return await API.getUser(persistedToken);
-      }
-    } catch (error) {
-      const err = error as AxiosError<TError>;
-      if (!err.response) {
-        throw error;
-      }
-      return thunkAPI.rejectWithValue(err.response.data);
-    }
-  },
-);
-
-export const getAllUsersThunk = createAppAsyncThunk(
-  'users/all',
-  async (_, thunkAPI) => {
-    try {
-      return await API.getAllUsers();
+      return await API.getUser(persistedToken ?? '');
     } catch (error) {
       const err = error as AxiosError<TError>;
       if (!err.response) {

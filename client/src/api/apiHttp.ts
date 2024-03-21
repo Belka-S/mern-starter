@@ -50,7 +50,7 @@ apiClient.interceptors.response.use(
         const { accessToken } = data.result.user;
 
         token.set(accessToken);
-        await store.dispatch(authenticate(data));
+        await store.dispatch(authenticate({ accessToken }));
         error.config.headers.Authorization = `Bearer ${accessToken}`;
 
         return apiClient(error.config);

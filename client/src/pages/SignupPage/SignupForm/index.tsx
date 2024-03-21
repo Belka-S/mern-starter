@@ -1,10 +1,12 @@
+import { baseURL } from 'api/apiHttp';
 import FormInput from 'components/FormInput';
-import { Button } from 'components/ui/Button';
-import { H3 } from 'components/ui/Typography/H3';
+import { Button, LinkBtn } from 'components/ui/Button';
+import SvgIcon from 'components/ui/SvgIcon';
+import { H3 } from 'components/ui/Typography';
 import { Resolver, SubmitHandler, useForm } from 'react-hook-form';
 import { NavLink } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import { useTAppDispatch } from 'store';
+import { useAppExtraDispatch } from 'store';
 import { registerThunk } from 'store/auth';
 import { signupSchema } from 'utils/validation';
 import { InferType } from 'yup';
@@ -18,7 +20,7 @@ type TInput = InferType<typeof signupSchema>;
 const inputFields = Object.keys(signupSchema.fields) as Array<keyof TInput>;
 
 const SignupForm = () => {
-  const dispatch = useTAppDispatch();
+  const dispatch = useAppExtraDispatch();
   const resolver: Resolver<TInput> = yupResolver(signupSchema);
 
   const {
@@ -52,6 +54,15 @@ const SignupForm = () => {
       ))}
 
       <Button type="submit" variant="smooth" label="Submit" />
+
+      <LinkBtn
+        href={`${baseURL}/auth/google`}
+        color="outlined"
+        variant="smooth"
+        label="Sign Up With"
+      >
+        <SvgIcon svgId="google" size={24} />
+      </LinkBtn>
     </form>
   );
 };
