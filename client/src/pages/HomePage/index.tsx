@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import H1 from 'components/ui/Typography/H1';
+import { H1 } from 'components/ui/Typography/H1';
 
 import s from './index.module.scss';
 

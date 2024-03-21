@@ -24,6 +24,6 @@ export interface ITypographyProps extends PropsWithChildren {
 
 export interface IHeadingProps {
   className?: string;
-  TfontWeight?: TFontWeight;
+  fontWeight?: TFontWeight;
   children: string;
 }

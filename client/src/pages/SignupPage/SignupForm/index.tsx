@@ -1,6 +1,6 @@
 import FormInput from 'components/FormInput';
-import Button from 'components/ui/Button';
-import H3 from 'components/ui/Typography/H3';
+import { Button } from 'components/ui/Button';
+import { H3 } from 'components/ui/Typography/H3';
 import { Resolver, SubmitHandler, useForm } from 'react-hook-form';
 import { NavLink } from 'react-router-dom';
 import { toast } from 'react-toastify';
@@ -51,7 +51,7 @@ const SignupForm = () => {
         />
       ))}
 
-      <Button type="submit" border="round" label="Submit" />
+      <Button type="submit" variant="smooth" label="Submit" />
     </form>
   );
 };

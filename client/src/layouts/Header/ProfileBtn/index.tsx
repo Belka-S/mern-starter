@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Button from 'components/ui/Button';
+import { Button } from 'components/ui/Button';
 import Modal from 'components/ui/Modal';
 import { useTAppDispatch } from 'store';
 import { logoutThunk } from 'store/auth';
@@ -32,7 +32,7 @@ const ProfileBtn = () => {
 
       {isModal && (
         <Modal setIsModal={switchIsModal}>
-          <Button onClick={handleLogout} border="round" label="Log Out" />
+          <Button onClick={handleLogout} variant="smooth" label="Log Out" />
         </Modal>
       )}
     </>

@@ -1,9 +1,9 @@
 import { FC } from 'react';
 
-import { IHeadingProps } from '../types';
-import Typography from '../Typography';
+import { IHeadingProps } from './types';
+import Typography from './Typography';
 
-const H6: FC<IHeadingProps> = props => {
+export const H6: FC<IHeadingProps> = props => {
   const { className = '', fontWeight = 700, children } = props;
 
   return (
@@ -12,5 +12,3 @@ const H6: FC<IHeadingProps> = props => {
     </Typography>
   );
 };
-
-export default H6;
