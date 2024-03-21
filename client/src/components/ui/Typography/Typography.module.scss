@@ -5,6 +5,7 @@
 .h1 {
   margin-bottom: var(--indent-m);
   font-size: 26px;
+  font-family: var(--title-font);
 
   @include tablet {
     margin-bottom: var(--indent-l);
@@ -18,6 +19,7 @@
 .h2 {
   font-size: 24px;
   margin-bottom: var(--indent-m);
+  font-family: var(--title-font);
 
   @include tablet {
     margin-bottom: var(--indent-l);
@@ -30,6 +32,8 @@
 }
 .h3 {
   font-size: 20px;
+  margin-bottom: var(--indent-s);
+  font-family: var(--title-font);
 
   @include tablet {
     font-size: 26px;

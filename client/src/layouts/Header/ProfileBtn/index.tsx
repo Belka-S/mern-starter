@@ -13,8 +13,10 @@ const ProfileBtn = () => {
   const { user } = useAuth();
   const [isModal, setIsModal] = useState(false);
 
+  // profile button styles
+  const btnId = 'profile-btn';
   document.styleSheets[0].insertRule(
-    '#profile-btn::after {' +
+    `#${btnId}::after {` +
       'color: #ffffff;' +
       `content: '${getAbbreviation(user.name)}'` +
       '}',
@@ -26,7 +28,7 @@ const ProfileBtn = () => {
 
   return (
     <>
-      <div id="profile-btn" className={s.button} onClick={switchIsModal} />
+      <div id={`${btnId}`} className={s[btnId]} onClick={switchIsModal} />
 
       {isModal && (
         <Modal setIsModal={switchIsModal}>

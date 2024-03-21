@@ -8,7 +8,7 @@
     "dev": "concurrently \"npm start\" \"cd ../server && npm run dev\"",
     "build": "vite build",
     "preview": "vite preview",
-    "sprite": "npx svg-symbol-sprite -p '' -i ./src/assets/svg -o ./public/sprite.svg"
+    "sprite": "npx svg-symbol-sprite -p '' -i ./src/assets/svg -o ./src/assets/sprite.svg"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
