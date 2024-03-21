@@ -1,1 +1,0 @@
-import{e,j as r,c as a}from"./index-CWAJPTvL.js";import{H as t}from"./index-BOu-cG4F.js";import"./Typography-DSoseKNO.js";const c="_screen_1kgoh_1",n={screen:c},l=()=>{const{id:s}=e();return r.jsx(t,{className:a("container",n.screen),children:`User ${s||""} Page`})};export{l as default};
