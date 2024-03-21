@@ -1,6 +1,6 @@
 import * as API from 'api/userApi';
-import { AxiosError } from 'axios';
-import { createAppAsyncThunk, TError } from 'store/types';
+import axios from 'axios';
+import { createAppAsyncThunk } from 'store';
 
 // auth
 export const registerThunk = createAppAsyncThunk(
@@ -9,11 +9,9 @@ export const registerThunk = createAppAsyncThunk(
     try {
       return await API.register(credentials);
     } catch (error) {
-      const err = error as AxiosError<TError>;
-      if (!err.response) {
-        throw error;
+      if (axios.isAxiosError(error)) {
+        return thunkAPI.rejectWithValue(error.response?.data);
       }
-      return thunkAPI.rejectWithValue(err.response.data);
     }
   },
 );
@@ -24,11 +22,9 @@ export const loginThunk = createAppAsyncThunk(
     try {
       return await API.login(credentials);
     } catch (error) {
-      const err = error as AxiosError<TError>;
-      if (!err.response) {
-        throw error;
+      if (axios.isAxiosError(error)) {
+        return thunkAPI.rejectWithValue(error.response?.data);
       }
-      return thunkAPI.rejectWithValue(err.response.data);
     }
   },
 );
@@ -39,11 +35,9 @@ export const logoutThunk = createAppAsyncThunk(
     try {
       return await API.logout();
     } catch (error) {
-      const err = error as AxiosError<TError>;
-      if (!err.response) {
-        throw error;
+      if (axios.isAxiosError(error)) {
+        return thunkAPI.rejectWithValue(error.response?.data);
       }
-      return thunkAPI.rejectWithValue(err.response.data);
     }
   },
 );
@@ -54,11 +48,9 @@ export const verifyEmailThunk = createAppAsyncThunk(
     try {
       return await API.verifyEmail(credentials);
     } catch (error) {
-      const err = error as AxiosError<TError>;
-      if (!err.response) {
-        throw error;
+      if (axios.isAxiosError(error)) {
+        return thunkAPI.rejectWithValue(error.response?.data);
       }
-      return thunkAPI.rejectWithValue(err.response.data);
     }
   },
 );
@@ -69,11 +61,9 @@ export const forgotPassThunk = createAppAsyncThunk(
     try {
       return await API.forgotPass(credentials);
     } catch (error) {
-      const err = error as AxiosError<TError>;
-      if (!err.response) {
-        throw error;
+      if (axios.isAxiosError(error)) {
+        return thunkAPI.rejectWithValue(error.response?.data);
       }
-      return thunkAPI.rejectWithValue(err.response.data);
     }
   },
 );
@@ -84,11 +74,9 @@ export const resetPassThunk = createAppAsyncThunk(
     try {
       return await API.resetPass(credentials);
     } catch (error) {
-      const err = error as AxiosError<TError>;
-      if (!err.response) {
-        throw error;
+      if (axios.isAxiosError(error)) {
+        return thunkAPI.rejectWithValue(error.response?.data);
       }
-      return thunkAPI.rejectWithValue(err.response.data);
     }
   },
 );
@@ -101,11 +89,9 @@ export const getUserThunk = createAppAsyncThunk(
     try {
       return await API.getUser(persistedToken ?? '');
     } catch (error) {
-      const err = error as AxiosError<TError>;
-      if (!err.response) {
-        throw error;
+      if (axios.isAxiosError(error)) {
+        return thunkAPI.rejectWithValue(error.response?.data);
       }
-      return thunkAPI.rejectWithValue(err.response.data);
     }
   },
 );
@@ -116,11 +102,9 @@ export const updateUserThunk = createAppAsyncThunk(
     try {
       return await API.updateUser(credentials);
     } catch (error) {
-      const err = error as AxiosError<TError>;
-      if (!err.response) {
-        throw error;
+      if (axios.isAxiosError(error)) {
+        return thunkAPI.rejectWithValue(error.response?.data);
       }
-      return thunkAPI.rejectWithValue(err.response.data);
     }
   },
 );
@@ -134,11 +118,9 @@ export const deleteUserThunk = createAppAsyncThunk(
         return await API.deleteUser();
       }
     } catch (error) {
-      const err = error as AxiosError<TError>;
-      if (!err.response) {
-        throw error;
+      if (axios.isAxiosError(error)) {
+        return thunkAPI.rejectWithValue(error.response?.data);
       }
-      return thunkAPI.rejectWithValue(err.response.data);
     }
   },
 );

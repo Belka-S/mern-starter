@@ -32,7 +32,7 @@ const SigninForm = () => {
   } = useForm<TInput>({
     resolver,
     mode: 'onChange',
-    defaultValues: { email: user.email },
+    defaultValues: { email: user.email ?? '' },
   });
 
   const onSubmit: SubmitHandler<TInput> = data => {

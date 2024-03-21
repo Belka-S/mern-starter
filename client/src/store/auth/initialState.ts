@@ -1,4 +1,4 @@
-export type TUserInitialState = {
+export type TUser = {
   id?: string | null;
   name?: string | null;
   email?: string | null;
@@ -8,7 +8,7 @@ export type TUserInitialState = {
   refreshToken?: string | null;
 };
 
-export const userInitialState: TUserInitialState = {
+export const userInitialState: TUser = {
   id: '',
   name: '',
   email: '',

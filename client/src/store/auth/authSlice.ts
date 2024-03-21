@@ -7,7 +7,7 @@ import {
   PayloadAction,
 } from '@reduxjs/toolkit';
 
-import { TUserInitialState, userInitialState } from './initialState';
+import { TUser, userInitialState } from './initialState';
 
 const thunkArr = [
   TNK.registerThunk,
@@ -31,15 +31,16 @@ const fn = (type: 'pending' | 'fulfilled' | 'rejected') =>
   });
 
 // fulfilled slice
-const handleAuthSucsess = (
-  state: TUserInitialState,
-  action: PayloadAction<TUserInitialState>,
-) => ({ ...state, ...action.payload });
+const handleAuthSucsess = (state: TUser, action: PayloadAction<TUser>) => {
+  return { ...state, ...action.payload };
+};
 
 const handleLoginSucsess = (
-  state: TUserInitialState,
-  action: PayloadAction<{ result: { user: TUserInitialState } }>,
-) => ({ ...state, ...action.payload.result.user });
+  state: TUser,
+  action: PayloadAction<{ result: { user: TUser } }>,
+) => {
+  return { ...state, ...action.payload.result.user };
+};
 
 const handleLogoutSucsess = () => userInitialState;
 

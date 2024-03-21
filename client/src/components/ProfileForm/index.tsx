@@ -1,7 +1,7 @@
 import s from './index.module.scss';
 
 const ProfileForm = () => {
-  return <div>ProfileForm</div>;
+  return <div className={s.form}>ProfileForm</div>;
 };
 
 export default ProfileForm;
