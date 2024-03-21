@@ -1,1 +1,0 @@
-import{j as e}from"./index-CGwHk1nr.js";import{T as a}from"./Typography-Cj-ELMU5.js";const p=o=>{const{className:r="",fontWeight:s=700,children:t}=o;return e.jsx(a,{className:r,el:"h1",fontWeight:s,children:t})};export{p as H};

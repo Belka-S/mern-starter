@@ -1,0 +1,1 @@
+import{j as s,c as e}from"./index-wEbqaprb.js";import{H as r}from"./H1-BrYJqJSq.js";import"./Typography-CJy-D8oF.js";const t="_screen_1kgoh_1",o={screen:t},i=()=>s.jsx(r,{className:e("container",o.screen),children:"List of Clusters Page"});export{i as default};

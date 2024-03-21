@@ -1,0 +1,1 @@
+import{f as e,j as r,c as a}from"./index-wEbqaprb.js";import{H as t}from"./H1-BrYJqJSq.js";import"./Typography-CJy-D8oF.js";const c="_screen_1kgoh_1",n={screen:c},l=()=>{const{id:s}=e();return r.jsx(t,{className:a("container",n.screen),children:`User ${s||""} Page`})};export{l as default};
