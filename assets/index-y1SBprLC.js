@@ -1,0 +1,1 @@
+import{j as e,c as s}from"./index-CGwHk1nr.js";import{H as r}from"./H1-BkyhxfCA.js";import"./Typography-Cj-ELMU5.js";const o="_screen_1kgoh_1",a={screen:o},m=()=>e.jsx(r,{className:s("container",a.screen),children:"Home Page"});export{m as default};
